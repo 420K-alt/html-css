@@ -1,0 +1,43 @@
+<section id="tourisme">
+      <h2>Et tant à découvrir...</h2>
+      <ul>
+        <li id="ocean"><p>L'océan Atlantique</p></li>
+        <li id="chateau"><p>Les châteaux du Médoc</p></li>
+        <li id="phare"><p>L'estuaire de la Gironde</p></li>
+        <li id="vignoble"><p>Le vignoble Bordelais</p></li>
+      </ul>
+    </section>
+
+<h2 id="contact">Contactez-nous</h2>
+      <form>
+        <input placeholder="Nom">
+        <input placeholder="E-mail">
+        <textarea placeholder="Votre message ici..."></textarea>
+        <button>Envoyer</button>
+      </form>
+
+        <div id="icons">
+          <a href="http://www.twitter.fr"><i class="fa fa-twitter"></i></a>
+          <a href="http://www.discord.fr"><i class="fab fa-discord"></i></a>
+          <a href="http://www.facebook.fr"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+
+        </div>
+
+#icons {
+          width: 50%;
+          text-align: right;
+        }
+        
+        #icons a {
+          display: inline-block;
+          padding: 0 15px;
+          font-size: 1.3em;
+          color: #FFFAE1;
+        }
+        
+        #icons a:hover {
+          transform: scale(1.5);
+          transition: 0.1s;
+        }
+  

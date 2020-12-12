@@ -1,0 +1,492 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+}
+
+
+h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2em;
+  color: black;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 2em;
+  color: rgb(56, 219, 15);
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(117, 212, 94);
+}
+
+nav {
+  overflow: hidden;
+  background-color: #000000a2;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#apython {
+  text-decoration: none;
+  color: rgb(117, 212, 94);
+}
+
+#aacceuil {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#aaccceuil {
+  text-decoration: none;
+  color: rgb(34, 42, 58);
+}
+
+#ahtml {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#ajs {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#navpython {
+  overflow: hidden;
+  background-color: #000000a2;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#navacceuil {
+  overflow: hidden;
+  background-color: #726969a2;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#navhtml {
+  overflow: hidden;
+  background-color: #1472b179;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#navjs {
+  overflow: hidden;
+  background-color: #ecd71ea8;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+header li {
+  float: right;
+  font-size: 1.2em;
+}
+
+header li a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+
+#texte{
+  font-family: Verdana;
+}
+
+#textepy{
+  font-family: Verdana;
+  float: center;
+  margin-top: 380px;
+}
+
+
+#textejs{
+  font-family: Verdana;
+  float: center;
+  margin-top: 0px;
+  color: rgb(43, 42, 42);
+}
+
+#logo {
+  font-family: Verdana;
+  font-weight: bold;
+  float: left;
+  
+}
+
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(photo/raw.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+
+#imagehtml {
+  padding-top: 60px;
+  background: url(photo/htmlfond.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 680px;
+  width: auto;
+}
+
+
+#imagepython {
+  padding-top: 60px;
+  background: url(photo/pythonfond1.jpg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 700px;
+}
+
+#imagejs {
+  padding-top: 60px;
+  background: url(photo/jsfond.jpeg) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 700px;
+}
+
+
+#texteenpython{
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 2em;
+  color:  rgb(56, 219, 15);
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #FFFAE1;
+  box-shadow: 1px 3px 2px black;
+}
+
+#premierTraitpython {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  margin-top: 40px;
+  background-color: rgb(56, 219, 15);
+  box-shadow: 1px 3px 2px black;
+}
+
+#premierTraithtml {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  margin-top: 350px;
+  background-color: white;
+  box-shadow: 1px 3px 2px black;
+}
+
+h3 {
+  text-align: center;
+  color:antiquewhite;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px black;
+}
+
+
+#presentation {
+  background-color:#FFFAE1;
+  padding: 10px 0px 100px 0;
+} 
+
+#presentationpython {
+  background-color:rgb(255, 255, 255);
+  padding: 10px 0px 100px 0;
+  padding: 10px 20%;
+} 
+
+#texteIntro {
+  padding: 10px 20%;
+}
+
+#textepremierelecon {
+  padding: 0px 20%;
+}
+
+.codeprint{
+  height: 80px;
+  width: auto;
+  background-color: rgb(5, 1, 15);
+}
+
+.codeprint2{
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.codevar{
+  height: 160px;
+  width: auto;
+  background-color: rgb(5, 1, 15);
+}
+
+.codevar2{
+  display: block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+.code2{
+  background-color: rgb(5, 1, 15);
+  height: 255px;
+}
+
+.code3{
+  margin-top: 10px;
+}
+
+
+.codeblanc{
+  background-color: white;
+}
+
+#helpme{
+  margin-left: 40px;
+}
+
+#contenus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;  
+}
+
+python{
+  width: 10px;
+  height: auto;
+}
+
+.images h4 {
+  font-family: Verdana;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+
+.images img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+
+.images img:hover {
+  opacity: 0.85;
+  transform: scale(0.95);
+  transition: 0.1s ease-in-out;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#footeracceuil {
+  background-color: #41493f;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#footerpython {
+  background-color: black;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#footerhtml {
+  background-color: #1472b1;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#footerjs {
+  background-color: #d3e62b;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+#deuxiemeTraitpython {
+  height: 1px;
+  width: 75%;
+  background-color: rgb(56, 219, 15);
+  margin: 60px auto;
+}
+
+#deuxiemeTraitacceuil {
+  height: 1px;
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+  margin: 60px auto;
+}
+
+#deuxiemeTraithtml {
+  height: 1px;
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+  margin: 60px auto;
+}
+
+#deuxiemeTraitjs {
+  height: 1px;
+  width: 75%;
+  background-color: rgb(0, 0, 0);
+  margin: 60px auto;
+}
+
+#copyrightpython {
+  width: 50%;
+  text-align: left;
+  color: rgb(56, 219, 15);
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+
+#copyrightaceuil {
+  width: 50%;
+  text-align: left;
+  color:rgb(255, 255, 255);
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+
+#copyrighthtml {
+  width: 50%;
+  text-align: left;
+  color:rgb(255, 255, 255);
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+
+#copyrightjs {
+  width: 50%;
+  text-align: left;
+  color:rgb(0, 0, 0);
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
+
+.gif{
+  height: 160px;
+  width: auto;
+  position: absolute; 
+  top: 1600px; 
+  left: 100px;
+}
+
+.navpython{
+  height: 45px;
+  width: auto;
+  position: absolute; 
+  top: 8px; 
+  left: 180px;
+}
+
+.gif2{
+  height: 45px;
+  width: auto;
+  position: absolute; 
+  top: 8px; 
+  left: 220px;
+}
+
+.gif3{
+  height: 45px;
+  width: auto;
+  position: absolute; 
+  top: 8px; 
+  left: 160px;
+}
+
+.gifjs{
+  height: 45px;
+  width: auto;
+  position: absolute; 
+  top: 5px; 
+  left: 10px;
+}
+
+#tableau{
+  text-align: center;
+  padding: 10px 20%;
+}
+
+table{
+  border-collapse: collapse; 
+}
+
+td{
+  border: 1px solid black;
+  width: 220px;
+  height: 30px;
+}
+
+tr{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
